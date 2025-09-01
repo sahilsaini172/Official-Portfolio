@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sahilsaini-portfolio.netlify.app/",
+  "homepage": "https://sahilsaini-portfolios.netlify.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
