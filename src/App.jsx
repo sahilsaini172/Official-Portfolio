@@ -3,6 +3,8 @@ import Hero from "../src/Sections/Hero";
 import Appbar from "./Appbar";
 import Contact from "./Sections/Contact";
 import Work from "./Sections/Work";
+import Article from "./Sections/Article";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Images />
       <Contact />
       <Work/>
+      <Article/>
+      <Footer/>
     </main>
   );
 }
