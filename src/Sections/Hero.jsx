@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="px-4 text-neutral-400 flex flex-col gap-4 mt-10 **:duration-300 **:ease-linear">
       <header className="flex flex-col gap-1">
         <img
-          src="../src/Imgs/profile.jpeg"
+          src="./Imgs/profile.jpeg"
           alt=""
           className="w-[56px] aspect-square object-cover object-top-right rounded-b-4xl rounded-l-2xl rounded-r-2xl mb-4"
         />

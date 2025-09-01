@@ -1,9 +1,9 @@
 const imgData = [
-  "../src/imgs/p1.jpg",
-  "../src/imgs/p2.jpg",
-  "../src/imgs/p3.jpg",
-  "../src/imgs/p4.jpg",
-  "../src/imgs/p5.jpg",
+  "./Imgs/p1.jpg",
+  "./Imgs/p2.jpg",
+  "./Imgs/p3.jpg",
+  "./Imgs/p4.jpg",
+  "./Imgs/p5.jpg",
 ];
 
 // /Users/sahilsaini/Desktop/Official Portfolio/src/Imgs/p1.jpg
