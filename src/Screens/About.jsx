@@ -8,7 +8,7 @@ export default function About() {
           className="w-3/5 aspect-square object-top-right object-cover rounded-xl rotate-2"
         />
         <main className="flex flex-col">
-          <h1 className="text-3xl mt-10">A bit about me</h1>
+          <h1 className="text-3xl mt-10 font-medium">A bit about me</h1>
           <p className="mt-4 text-neutral-400 font-light">
             I'm Sahil Saini from Rohtak, Haryana. This site showcases some of my
             personal projects, work, and abilities as a frontend developer.

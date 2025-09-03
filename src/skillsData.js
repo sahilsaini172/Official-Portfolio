@@ -10,10 +10,6 @@ export const skillsData = [
       "Proficient in crafting visually appealing layouts using modern CSS techniques, including Flexbox, Grid, and responsive design principles.",
   },
   {
-    title: "HTML",
-    description: "",
-  },
-  {
     title: "JavaScript",
     description:
       "Skilled in writing clean and efficient JavaScript code to create dynamic, interactive user experiences and handle client-side logic.",
