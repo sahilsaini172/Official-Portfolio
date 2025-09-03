@@ -1,9 +1,9 @@
-import Article from "../Sections/Article";
-import Contact from "../Sections/Contact";
-import Footer from "../Sections/Footer";
-import Hero from "../Sections/Hero";
-import Images from "../Sections/Images";
-import Work from "../Sections/Work";
+import Article from "../HomeSections/Article";
+import Contact from "../HomeSections/Contact";
+import Footer from "../Footer";
+import Hero from "../HomeSections/Hero";
+import Images from "../HomeSections/Images";
+import Work from "../HomeSections/Work";
 
 export default function Home() {
   return (
