@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
 export default function Appbar() {
   return (
@@ -28,23 +29,41 @@ export function OverlayMenu({ toggle, setToggle }) {
   return (
     <div
       onClick={() => setToggle(!toggle)}
-      className={`select-none fixed inset-0 bg-black/70 backdrop-blur-sm flex flex-col items-center z-50 duration-300 ease-linear ${
+      className={`pointer select-none fixed inset-0 bg-black/70 backdrop-blur-sm flex flex-col items-center z-50 duration-300 ease-linear ${
         toggle ? null : "hidden"
       } `}
     >
       <div className="flex flex-col bg-transparent m-8 w-full">
         <div className="flex flex-col bg-neutral-900 border border-neutral-700/60 mx-4 rounded-3xl">
-          <div className="flex text-neutral-400 justify-between items-center p-4">
+          <div className="flex text-neutral-400 justify-between items-center px-6 py-4">
             <p className="text-sm ">Navigation</p>
             <button onClick={() => setToggle(!toggle)}>
               <i class="fa-solid fa-xmark text-neutral-300"></i>
             </button>
           </div>
-          <nav className="p-4">
-            <li>about</li>
+          <nav className="px-6 pb-6 font-light text-neutral-300 flex flex-col">
+            <NavItem title="about" />
+            <NavItem title="projects" />
+            <NavItem title="skills" />
+            <NavItem title="articles" last={true} />
           </nav>
         </div>
       </div>
     </div>
+  );
+}
+
+export function NavItem({ title, last = false }) {
+  let path = title.toLowerCase();
+  let newTitle = path.charAt(0).toUpperCase() + path.slice(1);
+  return (
+    <Link
+      to={"/" + path}
+      className={`py-3 ${
+        last ? null : "border-b border-b-neutral-700"
+      } hover:text-neutral-100`}
+    >
+      {newTitle}
+    </Link>
   );
 }
