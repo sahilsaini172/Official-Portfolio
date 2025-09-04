@@ -1,3 +1,4 @@
+const aboutImg = ""
 export default function About() {
   return (
     <main className="scroll-smooth bg-neutral-900 min-h-screen text-neutral-100 flex flex-col gap-2 md:mx-10 md:border-x md:border-x-neutral-700/60 lg:mx-15 xl:mx-60">
@@ -5,7 +6,7 @@ export default function About() {
         <main className="flex flex-col ">
           <div className="xl:flex xl:flex-row-reverse lg:flex lg:flex-row-reverse">
             <img
-              src="../public/Imgs/about-pic.jpg"
+              src="./Imgs/about-pic.jpg"
               alt=""
               className="w-[300px] aspect-square object-top-right object-cover rounded-xl rotate-2 lg:w-1/3 lg:h-fit lg:flex-1"
             />
