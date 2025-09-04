@@ -5,7 +5,7 @@ export default function About() {
         <main className="flex flex-col ">
           <div className="xl:flex xl:flex-row-reverse lg:flex lg:flex-row-reverse">
             <img
-              src="../public/Imgs/about-pic.png"
+              src="../public/Imgs/about-pic.jpg"
               alt=""
               className="w-[300px] aspect-square object-top-right object-cover rounded-xl rotate-2 lg:w-1/3 lg:h-fit lg:flex-1"
             />
