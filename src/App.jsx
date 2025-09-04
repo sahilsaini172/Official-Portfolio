@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <main className="scroll-smooth bg-neutral-900 min-h-screen text-neutral-100 flex flex-col gap-2">
+    <main className="scroll-smooth bg-neutral-900 min-h-screen text-neutral-100 flex flex-col gap-2 md:gap-0 md:bg-neutral-950">
       <BrowserRouter>
         <Appbar />
           <Routes>

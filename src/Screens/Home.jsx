@@ -7,13 +7,16 @@ import Work from "../HomeSections/Work";
 
 export default function Home() {
   return (
-    <main className="scroll-smooth bg-neutral-900 min-h-screen text-neutral-100 flex flex-col gap-2">
+    <main className="scroll-smooth bg-neutral-900 min-h-screen text-neutral-100 flex flex-col gap-2 md:border-x md:border-x-neutral-700/60 md:mx-10 lg:mx-15 xl:mx-60">
       <Hero />
       <Images />
-      <Contact />
-      <Work />
-      <Article />
-      <Footer />
+      <div className="xl:flex xl:flex-row-reverse xl:mx-20 lg:flex lg:flex-row-reverse lg:mx-4">
+        <div className="lg:flex lg:flex-col lg:w-full xl:w-2/3">
+          <Contact />
+          <Work />
+        </div>
+        <Article />
+      </div>
     </main>
   );
 }

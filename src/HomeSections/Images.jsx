@@ -10,7 +10,7 @@ const imgData = [
 
 export default function Images() {
   return (
-    <section className="my-18 py-2 *:even:rotate-3 flex justify-center items-center gap-6 *:aspect-[calc(4/5)] overflow-hidden">
+    <section className="my-18 py-2 *:even:rotate-3 flex justify-center items-center gap-6 md:gap-12 *:aspect-[calc(4/5)] overflow-hidden md:overflow-visible md:z-10 xl:px-50 xl:w-full">
       {imgData.map((img) => {
         return (
           <img

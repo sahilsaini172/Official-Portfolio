@@ -3,7 +3,7 @@ const inputStyle =
 
 export default function Contact() {
   return (
-    <section className="flex text-sm p-4 m-4 flex-col border border-neutral-700/50 rounded-2xl">
+    <section className="flex text-sm p-4 m-4 flex-col border border-neutral-700/50 rounded-2xl md:mx-10">
       <div className="flex items-center gap-2">
         <i class="fa-solid fa-envelope text-lg text-neutral-500"></i>
         <h2>Contact</h2>

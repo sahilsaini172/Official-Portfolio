@@ -1,6 +1,6 @@
 export default function Article() {
   return (
-    <article className="flex flex-col gap-2 p-4 mt-10 hover:bg-neutral-700/25 duration-200 rounded-xl">
+    <article className="flex flex-col gap-2 p-4 mt-10 hover:bg-neutral-700/25 duration-200 rounded-xl md:mx-7 xl:h-fit lg:w-2/3">
       <span className="flex items-center gap-2 text-sm text-neutral-500 font-light">
         <div className="h-4 w-1 rounded-full bg-neutral-400"></div>
         <time datetime="2025-08-01">September 1, 2025</time>

@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="px-4 text-neutral-400 flex flex-col gap-4 mt-10 **:duration-300 **:ease-linear">
+    <section className="px-4 text-neutral-400 flex flex-col gap-4 mt-10 **:duration-300 **:ease-linear xl:px-30 lg:px-15">
       <header className="flex flex-col gap-1">
         <img
           src="./Imgs/profile.jpeg"
@@ -8,10 +8,12 @@ export default function Hero() {
           className="w-[56px] aspect-square object-cover object-top-right rounded-b-4xl rounded-l-2xl rounded-r-2xl mb-4"
         />
         <p>Hello, I'm</p>
-        <h1 className="text-4xl text-neutral-100 font-medium">Sahil Saini</h1>
+        <h1 className="text-4xl text-neutral-100 font-medium xl:text-5xl xl:font-bold">
+          Sahil Saini
+        </h1>
       </header>
       <main>
-        <p className="leading-6">
+        <p className="leading-6 xl:w-3/5">
           Currently exploring front-end development after a background in UI/UX
           design, I specialize in turning creative concepts into engaging
           digital experiences using HTML, CSS, JavaScript, and ReactJS. I build
